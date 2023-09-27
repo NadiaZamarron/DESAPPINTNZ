@@ -10,8 +10,7 @@ public class Cliente {
 
     public void AgregarVenta(Venta venta) => Ventas.Add(venta);
 
-    public double SubT
-    otal() {
+    public double SubTotal() {
         double total=0;
         foreach(Venta venta in Ventas)
           total = total + venta.Total;

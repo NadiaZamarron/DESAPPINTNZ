@@ -33,3 +33,4 @@ Correo: ic.nadiagzc@hotmail.com
 # Tarea 02 - Programación orientada a objetos 
 - p16-control-ventas-v1 - Completada
 
+# Examen - Primer parcial
