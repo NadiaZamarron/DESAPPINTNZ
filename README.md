@@ -34,3 +34,13 @@ Correo: ic.nadiagzc@hotmail.com
 - p16-control-ventas-v1 - Completada
 
 # Examen - Primer parcial
+- p17-primereparcial
+
+# Actividad 06 - Progrmas hechos en clase
+- p18-linq1
+- p19-linq2
+- p20-linq3
+
+# Actividad 07 - Programas hechos en clase 
+- p21-linq4
+- p22-linq5
