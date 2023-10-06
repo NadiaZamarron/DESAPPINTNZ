@@ -36,7 +36,7 @@ Correo: ic.nadiagzc@hotmail.com
 # Examen - Primer parcial
 - p17-primereparcial
 
-# Actividad 06 - Progrmas hechos en clase
+# Actividad 06 - Programas hechos en clase
 - p18-linq1
 - p19-linq2
 - p20-linq3
