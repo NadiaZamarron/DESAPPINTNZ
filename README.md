@@ -46,3 +46,5 @@ Correo: ic.nadiagzc@hotmail.com
 - p22-linq5
 
 # Actividad 08 - Programas hechos en  clase 
+- p23-BlazorServer
+- p24-TodoList
