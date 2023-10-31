@@ -48,3 +48,12 @@ Correo: ic.nadiagzc@hotmail.com
 # Actividad 08 - Programas hechos en  clase 
 - p23-BlazorServer
 - p24-TodoList
+
+# Actividad 09 - Programas hechos en clase 
+- p25-simple-crud
+
+# Tarea 03 - Crud Jugador 
+- p26-crud-jugador
+
+# Examen - Segundo examen
+- p27-segundo-examen-parcial
