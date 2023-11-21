@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using p28_crud_universidad.Data;
+using p28_crud_universidad_p1.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+
+    builder.Services.AddScoped<EstudianteServicio>();
+    builder.Services.AddScoped<CursoServicio>();
+    builder.Services.AddScoped<InscripcionServicio>();
+
+    builder.Services.AddDbContext<ContextoDatos>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("bdcon")));
 
 var app = builder.Build();
 
@@ -17,6 +25,12 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Error");
 }
 
+    using (var scope = app.Services.CreateScope()) {
+    var servicios = scope.ServiceProvider;
+    var contexto = servicios.GetRequiredService<ContextoDatos>();
+    contexto.Database.EnsureCreated();
+    InicializadorBD.Inicializar(contexto);
+    }
 
 app.UseStaticFiles();
 

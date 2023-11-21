@@ -57,3 +57,12 @@ Correo: ic.nadiagzc@hotmail.com
 
 # Examen - Segundo examen
 - p27-segundo-examen-parcial
+
+# Actividad 10 - Programas hechos en clase 
+- p28-crud-universidad-p10
+
+# Actividad 11 - Programas hechos en clase
+- p29-crud-universidad-v2
+
+# Examen - Tercer parcial
+-p30--tercer-examen-parcial
